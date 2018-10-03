@@ -34,6 +34,9 @@ header{
 	margin-left: 2%;
 	list-style: none;
 	flex-wrap: wrap;
+	color: #1e2161;
+	font-weight: bold;
+	font-family: sans-serif;
 }
 .menu ul li{
 	padding-right: 18px;
@@ -112,6 +115,10 @@ label[for="bt_menu"]{
 	.menu ul li{
 		padding-bottom: 2%;
 	}
+
+	body{
+		overflow-x: hidden;
+	}
 }
 
 @media screen and (max-width: 767px){
@@ -123,16 +130,20 @@ label[for="bt_menu"]{
 
 	.menu{
 		margin-left: -200%;
+		transition: all .4s;
 	}
 
 	#bt_menu:checked ~ .menu{
 		margin-left: 0;
 	}
+
+
 	.menu ul{
 		flex-flow: column wrap;
 		margin-top: 4%;
 		color: #fff;
 		text-align: justify;
+		background-color: rgb(0,189,176,0.8);
 	}
 	.menu ul li{
 		flex:1;
@@ -143,18 +154,27 @@ label[for="bt_menu"]{
 	}
 
 	.carousel, .slide{
-		margin-top: -180px;
-	}	
+		margin-top: -171px;
+	}	 
+	body{
+		overflow-x: hidden;
+	}
 }
 
 @media screen and (min-width: 576px) and (max-width: 840px){
 	.header-left{
 		width: 35vw !important;
+	} 
+	body{
+		overflow-x: hidden;
 	}
 }
 
 @media screen and (max-width: 330px){
 	.carousel, .slide{
 		margin-top: -194px;
-	}	
+	}	 
+	body{
+		overflow-x: hidden;
+	}
 }
