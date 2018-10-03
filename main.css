@@ -1,0 +1,37 @@
+
+/*Header*/
+
+html{
+	overflow-x: hidden;
+}
+
+body{
+	background: url('photos/fundo.png') fixed no-repeat;
+	background-size: 100%;
+}
+
+.nav-fantastica{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.header-left{
+	max-width: 45vw;
+	width: 19vw;
+}
+
+#header-right{
+	max-width: 190vw;
+	width: 90vw;
+}
+
+@media screen and (max-width: 840px){
+	
+	.header-left{
+		width: 40vw;
+	}
+
+	#header-right{
+		width: 190vw;
+	}
+}
