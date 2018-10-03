@@ -10,9 +10,45 @@ header{
 	background-size: 100%;
 }
 
-.nav-fantastica{
+.fantastica{
 	display: flex;
 	flex-wrap: nowrap;
+}
+
+/*Logo*/
+#logoIF{
+	width: 100%;
+	margin-top: -88%;
+	margin-left: 10%;
+	position: relative;
+	z-index: 1000;
+}
+
+/*Menu*/
+
+.menu ul{
+	display: flex;
+	position: relative;
+	z-index: 1000;
+	margin-top: -6%;
+	margin-left: 2%;
+	list-style: none;
+	flex-wrap: wrap;
+}
+.menu ul li{
+	padding-right: 18px;
+}
+
+label[for="bt_menu"]{
+	font-size: 20px;
+	cursor: pointer;
+	display: none;
+	position: relative;
+	z-index: 1000;
+}
+
+#bt_menu{
+	display: none;
 }
 
 .header-left{
@@ -35,21 +71,12 @@ header{
 	width: 100%;
 }
 
-/*Logo*/
-#logoIF{
-	width: 100%;
-	margin-top: -98%;
-	margin-left: 10%;
-	position: relative;
-	z-index: 1000;
-}
-
 @media screen and (max-width: 840px){
 	
 	body{
 		overflow-x: hidden;
 	}
-	
+		
 	.header-left{
 		width: 40vw;
 	}
@@ -57,10 +84,77 @@ header{
 	#header-right{
 		width: 190vw;
 	}
+
+	#logoIF{
+		margin-top: -104%;
+	}
+}
+@media screen and (min-width: 841px) and (max-width: 991px){
+	
+	body{
+		overflow-x: hidden;
+	}
+	
+	.header-left{
+		width: 35vw;
+	}
+
+	#header-right{
+		width: 190vw;
+	}
+}
+
+@media screen and (max-width: 991px){
+	.menu ul{
+		margin-top: -40%;
+		width: 77vw;
+	}
+	.menu ul li{
+		padding-bottom: 2%;
+	}
+}
+
+@media screen and (max-width: 767px){
+	label[for="bt_menu"]{
+		display: block;
+		margin-top: -20%;
+		margin-left: 75%;
+	}
+
+	.menu{
+		margin-left: -200%;
+	}
+
+	#bt_menu:checked ~ .menu{
+		margin-left: 0;
+	}
+	.menu ul{
+		flex-flow: column wrap;
+		margin-top: 4%;
+		color: #fff;
+		text-align: justify;
+	}
+	.menu ul li{
+		flex:1;
+	}
+
+	.hidden-ping{
+		display: none;
+	}
+
+	.carousel, .slide{
+		margin-top: -180px;
+	}	
 }
 
 @media screen and (min-width: 576px) and (max-width: 840px){
 	.header-left{
 		width: 35vw !important;
 	}
+}
+
+@media screen and (max-width: 330px){
+	.carousel, .slide{
+		margin-top: -194px;
+	}	
 }

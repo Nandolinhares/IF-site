@@ -29,14 +29,33 @@
 <body>
 
 	<header>
-		<section class="container-flex">
-			<div class="row nav-fantastica">
+		<section>
+			<div class="row fantastica">
 				<div class="col-4 col-sm-3 col-md-3 col-lg-2">
 					<img class="header-left" src="photos/header-left.png">
 					<img id="logoIF" src="photos/logoDragao.png">
 				</div>
-				<div class="col-8 col-sm-9 col-md-4">
+				<div class="col-8 col-sm-9 col-md-4 col-lg-10">
 					<img id="header-right" src="photos/header-right.png">
+
+					<!-- Botão responsivo -->
+					<input type="checkbox" name="botao_responsivo" id="bt_menu">
+					<label for="bt_menu">&#9776;</label>
+
+					<!-- Navbar -->
+					<nav class="menu">
+						<ul>
+							<li>SOBRE</li>
+							<li class="hidden-ping">•</li>
+							<li>IMPRENSA</li>
+							<li class="hidden-ping">•</li>
+							<li>CONTATO</li>
+							<li class="hidden-ping">•</li>
+							<li>EXPERIÊNCIA VIP</li>
+							<li class="hidden-ping">•</li>
+							<li>PRÉ-VENDA DE CAMISAS</li>
+						</ul>
+					</nav>
 				</div>
 			</div>
 		</section>
