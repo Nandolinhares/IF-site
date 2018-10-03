@@ -31,8 +31,9 @@
 	<header>
 		<section class="container-flex">
 			<div class="row nav-fantastica">
-				<div class="col-4 col-sm-3 col-md-2">
+				<div class="col-4 col-sm-3 col-md-3 col-lg-2">
 					<img class="header-left" src="photos/header-left.png">
+					<img id="logoIF" src="photos/logoDragao.png">
 				</div>
 				<div class="col-8 col-sm-9 col-md-4">
 					<img id="header-right" src="photos/header-right.png">

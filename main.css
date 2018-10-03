@@ -31,8 +31,17 @@ header{
 }
 
 .carousel, .slide{
-	margin-top: -30px;
+	margin-top: -40px;
 	width: 100%;
+}
+
+/*Logo*/
+#logoIF{
+	width: 100%;
+	margin-top: -98%;
+	margin-left: 10%;
+	position: relative;
+	z-index: 1000;
 }
 
 @media screen and (max-width: 840px){
