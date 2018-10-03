@@ -47,12 +47,12 @@
 		      <img class="d-block w-100" src="photos/slide1.png" alt="First slide">
 		    </div>
 		    <div class="carousel-item">
-		      <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
+		      <img class="d-block w-100" src="photos/slide2.png" alt="Second slide">
 		    </div>
-		    <div class="carousel-item">
+		    <!---<div class="carousel-item">
 		      <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
 		    </div>
-		  </div>
+		  </div>-->
 		  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
 		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 		    <span class="sr-only">Previous</span>
