@@ -25,6 +25,8 @@
 	<!-- Meu CSS -->
 	<link rel="stylesheet" type="text/css" href="main.css">
 
+	<!-- Fonts Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
 
@@ -42,6 +44,13 @@
 					<input type="checkbox" name="botao_responsivo" id="bt_menu">
 					<label for="bt_menu">&#9776;</label>
 
+					<section id="redes-sociais-mobile">
+						<i class="fab fa-twitter fa-md icone"></i>
+						<i class="fab fa-instagram fa-md icone"></i>
+						<i class="fab fa-facebook-f fa-md icone"></i>
+						<i class="fab fa-youtube fa-md icone"></i>
+					</section>
+
 					<!-- Navbar -->
 					<nav class="menu">
 						<ul>
@@ -54,6 +63,12 @@
 							<li>EXPERIÊNCIA VIP</li>
 							<li class="hidden-ping">•</li>
 							<li>PRÉ-VENDA DE CAMISAS</li>
+							<div id="redes-sociais">
+								<i class="fab fa-twitter fa-lg icone"></i>
+								<i class="fab fa-instagram fa-lg icone"></i>
+								<i class="fab fa-facebook-f fa-lg icone"></i>
+								<i class="fab fa-youtube fa-lg icone"></i>
+							</div>
 						</ul>
 					</nav>
 				</div>
