@@ -105,7 +105,28 @@
 	<section id="contagem-regressiva" class="boxes">
 		<div class="container">
 			<div class="row">
-				<h2 class="contagem" id="contagem"></h2>
+				<span class="col-12 col-md-6 col-lg-6 col-xl-6 flex-contagem">
+					<span class="contagem_column">
+						<span>+</span>
+						<span id="dias"></span>
+						<span class="dias_d">Dias</span>
+					</span>
+					<span class="contagem_column">
+						<span id="horas"></span>
+						<span class="dias_d">Hrs</span>
+					</span>
+					<span class="contagem_column">
+						<span id="minutos"></span>
+						<span class="dias_d">Min</span>
+					</span>
+					<span class="contagem_column">
+						<span id="segundos"></span>
+						<span class="dias_d">Seg</span>
+					</span>
+				</span>
+				<div class="col-12 col-md-6 col-lg-6 col-xl-6">
+					<span id="descubra">Descubra tudo o que vai acontecer no Invasao!</span>
+				</div>
 			</div>
 		</div>
 	</section>

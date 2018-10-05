@@ -43,7 +43,18 @@ function countdown_load99(){
 					contagem.innerHTML = "Foi Fantástico!";
 				}
 					else {
-						document.getElementById('contagem').innerHTML= differenceday +" dias | " + differencehour+" horas | " + differencemin + " minutos | " + differencesec+" segundos ";
+
+					var dias = document.getElementById('dias');
+						dias.innerHTML = differenceday;
+
+					var horas = document.getElementById('horas');
+						horas.innerHTML = "| " + differencehour;
+
+					var minutos = document.getElementById('minutos');
+						minutos.innerHTML = "| " + differencemin;
+
+					var segundos = document.getElementById('segundos');
+						segundos.innerHTML = "| " + differencesec;	 	 
 				}
 }
 	setTimeout("countdown_load99()",1000);}

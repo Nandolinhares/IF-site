@@ -1,4 +1,12 @@
 
+/*Fontes*/
+
+@font-face{font-family: "Wizards Magic";src: url("../fonts/Wizards_Magic.ttf");}
+@font-face{font-family: "Stanley Demo";src: url("../fonts/Stanley_DEMO.ttf");}
+@font-face{font-family: "AmaticSC-Regular";src: url("../fonts/AmaticSC-Regular.ttf");}
+@font-face{font-family: "Amatic-Bold";src: url("../fonts/Amatic-Bold.ttf");}
+@font-face{font-family: "Tempus-Sans";src: url("../fonts/tempus-sans-itc-1.otf");}
+
 /*Header*/
 
 html{
@@ -89,12 +97,39 @@ label[for="bt_menu"]{
 /*Boxes*/
 
 .boxes{
-	/*background-color: #070617;*/
+	background: url('photos/background2.png') no-repeat 50%;
+	padding: 30px 15px;
+	align-items: center;
+	color: #fff;
+	font-size: 1.2em;
 }
 
-.contagem{
+.boxes a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.flex-contagem{
+	display: inline-flex;
 	margin: 0 auto;
 	display: table;
+	align-items: center;
+}
+
+.contagem_column{
+	flex-direction: column;
+	padding: 0 1px;
+	line-height: 13px;
+	color: #1e2161;
+}
+
+.dias_d{
+	font-size: 12px;
+	color: #1e2161;
+}
+
+#descubra{
+	font-family: Stanley Demo;
 }
 
 @media screen and (max-width: 840px){
@@ -167,7 +202,6 @@ label[for="bt_menu"]{
 		margin-left: 0;
 	}
 
-
 	.menu ul{
 		flex-flow: column wrap;
 		margin-top: 4%;
@@ -192,6 +226,14 @@ label[for="bt_menu"]{
 
 	#redes-sociais i{
 		display: none;
+	}
+
+	#descubra{
+		display: none;
+	}
+
+	.boxes{
+		background: url('photos/background2.png') no-repeat 20%;
 	}
 }
 
@@ -247,5 +289,17 @@ label[for="bt_menu"]{
 		background-color: #1e2161;
 		color: rgb(0,189,176);
 		border-radius: 18px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.boxes{
+		margin-top: -15px;
+	}
+}
+
+@media screen and (min-width: 1300px){
+	.boxes{
+		background-color: #19bdb2;
 	}
 }
