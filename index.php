@@ -101,7 +101,7 @@
 		</div>
 	</section>
 
-	<!-- Boxes -->
+	<!-- Boxes Contagem regressiva-->
 	<section id="contagem-regressiva" class="boxes">
 		<div class="container">
 			<div class="row">
@@ -130,6 +130,57 @@
 			</div>
 		</div>
 	</section>
+
+	<!-- Programação -->
+	<section class="programacao-container">
+		<div class="container">
+			<div class="programacao row">
+				<div class="col-12 col-md-6 col-lg-6 col-xl-6">
+					<img class="img-reponsive" src="photos/border1.png">
+				</div>
+				<div class="col-12 col-md-6 col-lg-6 col-xl-6">
+					<img class="img-reponsive" src="photos/border2.png">
+				</div>
+			</div>
+			<div class="programacao row">
+				<div class="col-12 col-md-6 col-lg-6 col-xl-6">
+					<img class="img-reponsive" src="photos/border1.png">
+				</div>
+				<div class="col-12 col-md-6 col-lg-6 col-xl-6">
+					<img class="img-reponsive" src="photos/border2.png">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+
+	<footer>
+		<div class=" container patrocinio">
+			<div class="row patrocinadores">
+				<div class="col-12 col-md-4 patro">
+					<h3>Patrocinio:</h3>
+					<img src="photos/parceiros/bouLogo.png"><br>
+					<img src="photos/parceiros/chilliLogo.png">
+				</div>
+				<div class="col-12 col-md-4 apoio">
+					<h3>Apoio:</h3>
+					<img src="photos/parceiros/piticas.png">
+					<img src="photos/parceiros/novo-seculo.png">
+					<img src="photos/parceiros/balao.png">
+					<img src="photos/parceiros/redit.png">
+					<img src="photos/parceiros/cultura.png">
+					<img src="photos/parceiros/bourmet.png">
+					<img src="photos/parceiros/quadribol.png">
+				</div>
+				<div class="col-12 col-md-4">
+					<h3>Realização:</h3>
+					<img src="photos/parceiros/bouLogo.png">
+					<img src="photos/parceiros/chilliLogo.png">
+				</div>
+			</div>
+		</div>
+	</footer>
 
 
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->

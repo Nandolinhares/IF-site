@@ -7,6 +7,13 @@
 @font-face{font-family: "Amatic-Bold";src: url("../fonts/Amatic-Bold.ttf");}
 @font-face{font-family: "Tempus-Sans";src: url("../fonts/tempus-sans-itc-1.otf");}
 
+/* Body */
+
+body{
+	overflow-x: hidden;
+	background-color: #000617;
+}
+
 /*Header*/
 
 html{
@@ -97,7 +104,7 @@ label[for="bt_menu"]{
 /*Boxes*/
 
 .boxes{
-	background: url('photos/background2.png') no-repeat 50%;
+	background: url('photos/background21.png') no-repeat 50%;
 	padding: 30px 15px;
 	align-items: center;
 	color: #fff;
@@ -130,6 +137,38 @@ label[for="bt_menu"]{
 
 #descubra{
 	font-family: Stanley Demo;
+}
+
+.img-reponsive{
+	width: 100%;
+}
+
+.programacao img{
+	margin-top: 18px;
+}
+.programacao-container{
+	background-color: #000617;
+}
+
+footer{
+	background: url('photos/footer.png') no-repeat;
+}
+
+.patrocinadores{
+	margin-top: 4%;
+	padding-top: 5%;
+}
+
+.patrocinadores img{
+	padding-top: 8%;
+}
+
+.patrocinadores h3{
+	text-align: center;
+}
+
+.apoio img{
+	width: 20% !important;
 }
 
 @media screen and (max-width: 840px){
@@ -300,6 +339,12 @@ label[for="bt_menu"]{
 
 @media screen and (min-width: 1300px){
 	.boxes{
+		background-color: #19bdb2;
+	}
+}
+
+@media screen and (min-width: 1910px){
+	footer{
 		background-color: #19bdb2;
 	}
 }
