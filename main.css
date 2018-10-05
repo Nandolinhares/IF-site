@@ -157,6 +157,7 @@ footer{
 .patrocinadores{
 	margin-top: 4%;
 	padding-top: 5%;
+	color: #1e2161;
 }
 
 .patrocinadores img{
@@ -164,11 +165,37 @@ footer{
 }
 
 .patrocinadores h3{
-	text-align: center;
+	text-align: left;
+}
+
+.patro img{
+	width: 150px;
+	padding-left: 20px;
+	display: block;
+}
+
+.patro, .apoio{
+	border-right: 2px solid #1e2161;
+	line-height: 13px !important;
+}
+
+#logoBou{
+	width: 180px;
 }
 
 .apoio img{
-	width: 20% !important;
+	width: 80px !important;
+	padding: 8px;
+}
+
+.organizador img{
+	width: 200px;
+}
+
+.producao{
+	margin: 8px auto;
+	display: table;
+	color: #1e2161;
 }
 
 @media screen and (max-width: 840px){
@@ -273,6 +300,29 @@ footer{
 
 	.boxes{
 		background: url('photos/background2.png') no-repeat 20%;
+	}
+
+	.patrocinadores h3{
+		text-align: center;
+	}
+
+	.patro img{
+		display: inline;
+	}
+	.apoio{
+		margin: 0 auto;
+		display: table;
+		margin-top: 18px; 
+	}
+	.organizador img{
+		margin: 0 auto;
+		display: table;
+	}
+	.apoio img{
+		margin-left: 18px;
+	}
+	#logoBou{
+		width: 150px;
 	}
 }
 

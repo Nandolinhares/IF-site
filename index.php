@@ -156,29 +156,37 @@
 	<!-- Footer -->
 
 	<footer>
-		<div class=" container patrocinio">
+		<div class="container">
 			<div class="row patrocinadores">
-				<div class="col-12 col-md-4 patro">
+				<div class="col-12 col-md-4 col-lg-3 patro">
 					<h3>Patrocinio:</h3>
-					<img src="photos/parceiros/bouLogo.png"><br>
+					<img id="logoBou" src="photos/parceiros/bouLogo.png">
 					<img src="photos/parceiros/chilliLogo.png">
 				</div>
-				<div class="col-12 col-md-4 apoio">
+				<div class="col-12 col-md-4 col-lg-5 apoio">
 					<h3>Apoio:</h3>
 					<img src="photos/parceiros/piticas.png">
-					<img src="photos/parceiros/novo-seculo.png">
 					<img src="photos/parceiros/balao.png">
 					<img src="photos/parceiros/redit.png">
 					<img src="photos/parceiros/cultura.png">
 					<img src="photos/parceiros/bourmet.png">
 					<img src="photos/parceiros/quadribol.png">
 				</div>
-				<div class="col-12 col-md-4">
+				<div class="col-12 col-md-4 organizador">
 					<h3>Realização:</h3>
-					<img src="photos/parceiros/bouLogo.png">
-					<img src="photos/parceiros/chilliLogo.png">
+					<img src="photos/parceiros/conectat.png">
 				</div>
 			</div>
+			<section class="producao">
+				<div class="row">
+					<div class="col-12 col-sm-6 col-md-6">
+						<span>&copy; 2018 - Todos os direitos reservados a <strong>Club Conectat</strong></span>
+					</div>
+					<div class="col-12 col-sm-6 col-md-6">
+						<p>Development by <strong>Fernando Linhares</strong> & Design by <strong>Pedro Figueiredo</strong></p>
+					</div>
+				</div>
+			</section>
 		</div>
 	</footer>
 
