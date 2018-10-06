@@ -176,7 +176,6 @@ footer{
 
 .patro, .apoio{
 	border-right: 2px solid #1e2161;
-	line-height: 13px !important;
 }
 
 #logoBou{
@@ -196,6 +195,11 @@ footer{
 	margin: 8px auto;
 	display: table;
 	color: #1e2161;
+}
+
+#conectat-logo{
+	margin: 0 auto;
+	display: table;
 }
 
 @media screen and (max-width: 840px){
@@ -323,6 +327,9 @@ footer{
 	}
 	#logoBou{
 		width: 150px;
+	}
+	.patro, .apoio{
+		border: none;
 	}
 }
 

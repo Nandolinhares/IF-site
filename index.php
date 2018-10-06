@@ -81,15 +81,18 @@
 		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 		  <div class="carousel-inner">
 		    <div class="carousel-item active">
-		      <img class="d-block w-100" src="photos/slide1.png" alt="First slide">
+		      <img class="d-block w-100" src="photos/IF/carrouselBeco.png" alt="First slide">
 		    </div>
 		    <div class="carousel-item">
-		      <img class="d-block w-100" src="photos/slide2.png" alt="Second slide">
+		      <img class="d-block w-100" src="photos/IF/carrouselPaineis.png" alt="Second slide">
 		    </div>
-		    <!---<div class="carousel-item">
-		      <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="photos/IF/carrouselIF.png" alt="Third slide">
 		    </div>
-		  </div>-->
+		     <div class="carousel-item">
+		      <img class="d-block w-100" src="photos/IF/carrouselAreaGamer.png" alt="Third slide">
+		    </div>
+		  </div>
 		  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
 		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 		    <span class="sr-only">Previous</span>
@@ -166,15 +169,15 @@
 				<div class="col-12 col-md-4 col-lg-5 apoio">
 					<h3>Apoio:</h3>
 					<img src="photos/parceiros/piticas.png">
-					<img src="photos/parceiros/balao.png">
+					<img style="width: 120px !important;" src="photos/parceiros/balao.png">
 					<img src="photos/parceiros/redit.png">
 					<img src="photos/parceiros/cultura.png">
 					<img src="photos/parceiros/bourmet.png">
 					<img src="photos/parceiros/quadribol.png">
 				</div>
 				<div class="col-12 col-md-4 organizador">
-					<h3>Realização:</h3>
-					<img src="photos/parceiros/conectat.png">
+					<h3 style="text-align: center;">Realização:</h3>
+					<img id="conectat-logo" src="photos/parceiros/conectat.png">
 				</div>
 			</div>
 			<section class="producao">
