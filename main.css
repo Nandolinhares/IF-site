@@ -1,17 +1,45 @@
 
 /*Fontes*/
 
-@font-face{font-family: "Wizards Magic";src: url("../fonts/Wizards_Magic.ttf");}
-@font-face{font-family: "Stanley Demo";src: url("../fonts/Stanley_DEMO.ttf");}
-@font-face{font-family: "AmaticSC-Regular";src: url("../fonts/AmaticSC-Regular.ttf");}
-@font-face{font-family: "Amatic-Bold";src: url("../fonts/Amatic-Bold.ttf");}
-@font-face{font-family: "Tempus-Sans";src: url("../fonts/tempus-sans-itc-1.otf");}
+@font-face{
+	font-family: "Wizards Magic";
+	src: url("fonts/Wizards_Magic.ttf");
+}
+
+@font-face{
+	font-family: "Stanley Demo";
+	src: url("fonts/Stanley_DEMO.ttf");
+}
+
+@font-face{
+	font-family: "AmaticSC-Regular";
+	src: url("fonts/AmaticSC-Regular.ttf");
+}
+
+@font-face{
+	font-family: "Amatic-Bold";
+	src: url("fonts/Amatic-Bold.ttf");
+}
+
+@font-face{
+	font-family: "Tempus-Sans";
+	src: url("fonts/tempus-sans-itc-1.otf");
+}
+
+a{
+	text-decoration: none !important;
+	list-style: none;
+}
 
 /* Body */
 
 body{
 	overflow-x: hidden;
 	background-color: #000617;
+}
+
+h2{
+	font-family: Stanley Demo;
 }
 
 /*Header*/
@@ -55,6 +83,7 @@ header{
 }
 .menu ul li{
 	padding-right: 18px;
+	color: #1e2161;
 }
 
 label[for="bt_menu"]{

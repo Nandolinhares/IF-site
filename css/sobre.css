@@ -1,0 +1,27 @@
+body{
+	background: url('../photos/fundo.png');
+}
+
+header{
+	background: url('../photos/fundo.png');
+}
+
+
+
+.sobre h2{
+	font-family: Stanley Demo;
+	color: #fff;
+	text-align: center;
+}
+.sobre p{
+	color:#fff;
+	font-family:Tempus-Sans;
+	font-size: 22px;
+	text-align: justify;
+}
+
+@media screen and (max-width: 767px){
+	.sobre{
+		margin-top: -100px;
+	}
+}

@@ -3,12 +3,12 @@
 <head>
 	
 	<!-- Title -->
-	<title>Invasão Fantástica</title>
+	<title>Sobre - Invasão Fantástica</title>
 
 	<!-- Open Graph tags -->
-	<meta property="og:title" content="Invasão Fantástica"/>
+	<meta property="og:title" content="Sobre - Invasão Fantástica"/>
 	<meta property="og:type" content="website"/>
-	<meta property="og:url" content="index.php"/>
+	<meta property="og:url" content="sobre.php"/>
 	<meta property="og:image" content="photos/if.png" />
 	<meta property="og:description" content=""/>
 
@@ -27,6 +27,7 @@
 
 		<!-- Meu CSS -->
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="css/sobre.css">
 </head>
 <body>
 
@@ -54,7 +55,7 @@
 					<!-- Navbar -->
 					<nav class="menu">
 						<ul>
-							<a href="sobre.php"><li>SOBRE</li></a>
+							<li>SOBRE</li>
 							<li class="hidden-ping">•</li>
 							<li>IMPRENSA</li>
 							<li class="hidden-ping">•</li>
@@ -76,95 +77,20 @@
 		</section>
 	</header>
 
-	<!-- Slider -->
-	<section>
-		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-		  <div class="carousel-inner">
-		    <div class="carousel-item active">
-		      <img class="d-block w-100" src="photos/IF/carrouselBeco.png" alt="First slide">
-		    </div>
-		    <div class="carousel-item">
-		      <img class="d-block w-100" src="photos/IF/carrouselPaineis.png" alt="Second slide">
-		    </div>
-		    <div class="carousel-item">
-		      <img class="d-block w-100" src="photos/IF/carrouselIF.png" alt="Third slide">
-		    </div>
-		     <div class="carousel-item">
-		      <img class="d-block w-100" src="photos/IF/carrouselAreaGamer.png" alt="Third slide">
-		    </div>
-		  </div>
-		  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		    <span class="sr-only">Previous</span>
-		  </a>
-		  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-		    <span class="sr-only">Next</span>
-		  </a>
-		</div>
-	</section>
-
-	<!-- Boxes Contagem regressiva-->
-	<section id="contagem-regressiva" class="boxes">
-		<div class="container">
-			<div class="row">
-				<span class="col-12 col-md-6 col-lg-6 col-xl-6 flex-contagem">
-					<span class="contagem_column">
-						<span>+</span>
-						<span id="dias"></span>
-						<span class="dias_d">Dias</span>
-					</span>
-					<span class="contagem_column">
-						<span id="horas"></span>
-						<span class="dias_d">Hrs</span>
-					</span>
-					<span class="contagem_column">
-						<span id="minutos"></span>
-						<span class="dias_d">Min</span>
-					</span>
-					<span class="contagem_column">
-						<span id="segundos"></span>
-						<span class="dias_d">Seg</span>
-					</span>
-				</span>
-				<div class="col-12 col-md-6 col-lg-6 col-xl-6">
-					<span id="descubra">Descubra tudo o que vai acontecer no Invasao!</span>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="o-invasao">
+	<section class="sobre">
 		<div class="container">
 			<h2>O Evento</h2>
-			<p>Bem vindos a mais um evento realizado pelo Club Conectat. Chegou a oportunidade dos amantes do universo magico de Harry Potter e dos amantes da cultura pop estarem em contato, desfrutando de uma experiencia sem igual no segmento.</p>
+		<p>
+			O evento Invasão Fantástica é uma oportunidade dos fãs do universo mágico de Harry Potter e fãs de cultura pop estarem em contato desfrutando de uma experiência única no segmento.
+		</p>
+		<p>
+			Além dos tradicionais painéis temáticos, o evento apresentará um Artists' Alley com personalidades premiadas no cenário dos quadrinhos e literário nacional.
+			As áreas interativas marcarão presença mais forte nesse evento e contarão com novidades do mundo gamer imperdíveis para todo fã de cultura pop, oficinas exclusivas, áreas temáticas e muita tecnologia em todo evento.
+		</p>
 		</div>
 	</section>
 
-	<!-- Programação -->
-	<section class="programacao-container">
-		<div class="container">
-			<div class="programacao row">
-				<div class="col-12 col-md-6 col-lg-6 col-xl-6">
-					<img class="img-reponsive" src="photos/IF/boxPaineis.png">
-				</div>
-				<div class="col-12 col-md-6 col-lg-6 col-xl-6">
-					<img class="img-reponsive" src="photos/IF/boxVip.png">
-				</div>
-			</div>
-			<div class="programacao row">
-				<div class="col-12 col-md-6 col-lg-6 col-xl-6">
-					<img class="img-reponsive" src="photos/IF/boxBeco.png">
-				</div>
-				<div class="col-12 col-md-6 col-lg-6 col-xl-6">
-					<img class="img-reponsive" src="photos/IF/boxAreaGamer.png">
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<img style="width: 100%;" src="photos/IF/pages/pag-sobre.png">
-
+	
 	<!-- Footer -->
 
 	<footer>
