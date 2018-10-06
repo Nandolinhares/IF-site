@@ -134,23 +134,30 @@
 		</div>
 	</section>
 
+	<section id="o-invasao">
+		<div class="container">
+			<h2>O Evento</h2>
+			<p>Bem vindos a mais um evento realizado pelo Club Conectat. Chegou a oportunidade dos amantes do universo magico de Harry Potter e dos amantes da cultura pop estarem em contato, desfrutando de uma experiencia sem igual no segmento.</p>
+		</div>
+	</section>
+
 	<!-- Programação -->
 	<section class="programacao-container">
 		<div class="container">
 			<div class="programacao row">
 				<div class="col-12 col-md-6 col-lg-6 col-xl-6">
-					<img class="img-reponsive" src="photos/border1.png">
+					<img class="img-reponsive" src="photos/IF/boxPaineis.png">
 				</div>
 				<div class="col-12 col-md-6 col-lg-6 col-xl-6">
-					<img class="img-reponsive" src="photos/border2.png">
+					<img class="img-reponsive" src="photos/IF/boxVip.png">
 				</div>
 			</div>
 			<div class="programacao row">
 				<div class="col-12 col-md-6 col-lg-6 col-xl-6">
-					<img class="img-reponsive" src="photos/border1.png">
+					<img class="img-reponsive" src="photos/IF/boxBeco.png">
 				</div>
 				<div class="col-12 col-md-6 col-lg-6 col-xl-6">
-					<img class="img-reponsive" src="photos/border2.png">
+					<img class="img-reponsive" src="photos/IF/boxAreaGamer.png">
 				</div>
 			</div>
 		</div>

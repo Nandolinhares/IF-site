@@ -150,6 +150,19 @@ label[for="bt_menu"]{
 	background-color: #000617;
 }
 
+/* O Invasão*/
+#o-invasao{
+	color: #fff;
+	text-align: center;
+	font-family: Stanley Demo;
+	margin-top: 2px;
+	padding-top: 8px;
+}
+
+#o-invasao p{
+	text-align: justify;
+}
+
 footer{
 	background: url('photos/footer.png') no-repeat;
 }
