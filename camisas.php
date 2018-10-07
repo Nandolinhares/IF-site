@@ -9,8 +9,8 @@
 	<meta property="og:title" content="Camisas - Invasão Fantástica"/>
 	<meta property="og:type" content="website"/>
 	<meta property="og:url" content="camisas.php"/>
-	<meta property="og:image" content="photos/if.png" />
-	<meta property="og:description" content=""/>
+	<meta property="og:image" content="photos/if-new.png" />
+	<meta property="og:description" content="O evento Invasão Fantástica é uma oportunidade dos fãs do universo mágico de Harry Potter e fãs de cultura pop estarem em contato desfrutando de uma experiência única no segmento."/>
 
 	<!-- Principais metatags -->
 	<meta charset="utf-8">
@@ -80,8 +80,51 @@
 	
 	<section class="paineis">
 		<div class="container">
-			<img src="photos/IF/pages/pageCamisas.png">
-			<h1>Em Breve  ...</h1>
+			<img id="camisaLogo" src="photos/IF/pages/pageCamisas.png">
+			<h1>A pré-venda de camisas do Invasão Fantástica já começou mas é por tempo limitado!</h1>
+			<div class="row camisas2">
+				<div class="col-12 col-md-4 col-lg-4">
+					<img src="photos/camisas/oficial.png">
+					<p>Estampa Oficial</p>
+					<p>R$ 39,90</p>
+					<a href="https://www.eventbrite.com.br/e/pre-venda-camisas-da-colecao-invasao-fantastica-tickets-50921302988?ref=elink" target="_blank" class="btn btn-success">Comprar</a>
+				</div>
+				<div class="col-12 col-md-4 col-lg-4">
+					<img src="photos/camisas/dragon2.jpg">
+					<p>Estampa Dragon yellow</p>
+					<p>R$ 39,90</p>
+					<a href="https://www.eventbrite.com.br/e/pre-venda-camisas-da-colecao-invasao-fantastica-tickets-50921302988?ref=elink" target="_blank" class="btn btn-success">Comprar</a>
+				</div>
+				<div class="col-12 col-md-4 col-lg-4">
+					<img src="photos/camisas/geek1.jpg">
+					<p>Estampa Geek Render</p>
+					<p>R$ 39,90</p>
+					<a href="https://www.eventbrite.com.br/e/pre-venda-camisas-da-colecao-invasao-fantastica-tickets-50921302988?ref=elink" target="_blank" class="btn btn-success">Comprar</a>
+				</div>
+			</div>
+			<div class="row camisas2">
+				<div class="col-12 col-md-4 col-lg-4">
+					<img src="photos/camisas/nerd1.jpg">
+					<p>Estampa Nerdmorfose</p>
+					<p>R$ 39,90</p>
+					<a href="https://www.eventbrite.com.br/e/pre-venda-camisas-da-colecao-invasao-fantastica-tickets-50921302988?ref=elink" target="_blank" class="btn btn-success">Comprar</a>
+				</div>
+				<div class="col-12 col-md-4 col-lg-4">
+					<img src="photos/camisas/dragon1.jpg">
+					<p>Estampa Dragon Black</p>
+					<p>R$ 39,90</p>
+					<a href="https://www.eventbrite.com.br/e/pre-venda-camisas-da-colecao-invasao-fantastica-tickets-50921302988?ref=elink" target="_blank" class="btn btn-success">Comprar</a>
+				</div>
+				<div class="col-12 col-md-4 col-lg-4">
+					<img src="photos/camisas/dragon3.jpg">
+					<p>Estampa Dragon Aqua</p>
+					<p>R$ 39,90</p>
+					<a href="https://www.eventbrite.com.br/e/pre-venda-camisas-da-colecao-invasao-fantastica-tickets-50921302988?ref=elink" target="_blank" class="btn btn-success">Comprar</a>
+				</div>
+			</div>
+
+			<h3>A pré-venda à R$ 39,90 se encerra 30 de Outubro. Não perca tempo! </h3>
+			<p>As estampas da coleção Invasão Fantástica by Club Conectat são assinadas pelo Designer gráfico e Ilustrador <strong>Pedro Figueiredo</strong>. </p>
 		</div>		
 	</section>
 

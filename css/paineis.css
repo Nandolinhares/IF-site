@@ -1,5 +1,5 @@
 body{
-	background: url('../photos/fundo.png');
+	background: url('../photos/fundo.png') no-repeat fixed;
 }
 
 header{
@@ -12,14 +12,35 @@ header{
 	display: table;
 }
 
-.paineis h1{
-	font-family: Stanley Demo;
+.paineis h1, .paineis h3{
+	font-family: Tempus-Sans;
 	color: #fff;
 	text-align: center;
 }
 
+.camisas2 img{
+	margin-top: 2%;
+}
+
+.camisas2 p{
+	text-align: center !important;
+}
+
+.camisas2 a{
+	margin: 0 auto;
+	display: table;
+	margin-bottom: 2%;
+}
+
+.paineis p{
+	font-family: Tempus-Sans;
+	color: #fff;
+	text-align: justify;
+	font-size: 22px;
+}
+
 @media screen and (max-width: 767px){
-	.paineis img{
+	 #camisaLogo{
 		margin-left: 4%;
 		margin-top: -25%;
 		width: 100%;

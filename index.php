@@ -9,8 +9,8 @@
 	<meta property="og:title" content="Invasão Fantástica"/>
 	<meta property="og:type" content="website"/>
 	<meta property="og:url" content="index.php"/>
-	<meta property="og:image" content="photos/if.png" />
-	<meta property="og:description" content=""/>
+	<meta property="og:image" content="photos/if-new.png" />
+	<meta property="og:description" content="O evento Invasão Fantástica é uma oportunidade dos fãs do universo mágico de Harry Potter e fãs de cultura pop estarem em contato desfrutando de uma experiência única no segmento."/>
 
 	<!-- Principais metatags -->
 	<meta charset="utf-8">
@@ -62,12 +62,12 @@
 							<li class="hidden-ping">•</li>
 							<a href="experienciavip.php"><li>EXPERIÊNCIA VIP</li></a>
 							<li class="hidden-ping">•</li>
-							<li>CAMISAS</li>
+							<a href="camisas.php"><li>CAMISAS</li></a>
 							<div id="redes-sociais">
-								<i class="fab fa-twitter fa-lg icone"></i>
-								<i class="fab fa-instagram fa-lg icone"></i>
-								<i class="fab fa-facebook-f fa-lg icone"></i>
-								<i class="fab fa-youtube fa-lg icone"></i>
+								<a href="https://twitter.com/clubconectat" target="_blank"><i class="fab fa-twitter fa-lg icone"></i></a>
+								<a href="https://twitter.com/clubconectat" target="_blank"><i class="fab fa-instagram fa-lg icone"></i></a>
+								<a href="https://www.facebook.com/clubconectat" target="_blank"><i class="fab fa-facebook-f fa-lg icone"></i></a>
+								<a href="https://www.youtube.com/channel/UCN5rSVp84WBEPyJWO2LzTjA" target="_blank"><i class="fab fa-youtube fa-lg icone"></i></a>
 							</div>
 						</ul>
 					</nav>
@@ -140,7 +140,7 @@
 					</span>
 				</span>
 				<div class="col-12 col-md-6 col-lg-6 col-xl-6">
-					<span id="descubra">Descubra tudo o que vai acontecer no Invasao!</span>
+					<span id="descubra">Descubra tudo o que vai acontecer no Evento!</span>
 				</div>
 			</div>
 		</div>

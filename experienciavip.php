@@ -9,8 +9,8 @@
 	<meta property="og:title" content="Experiência Vip - Invasão Fantástica"/>
 	<meta property="og:type" content="website"/>
 	<meta property="og:url" content="experienciavip.php"/>
-	<meta property="og:image" content="photos/if.png" />
-	<meta property="og:description" content=""/>
+	<meta property="og:image" content="photos/if-new.png" />
+	<meta property="og:description" content="O evento Invasão Fantástica é uma oportunidade dos fãs do universo mágico de Harry Potter e fãs de cultura pop estarem em contato desfrutando de uma experiência única no segmento."/>
 
 	<!-- Principais metatags -->
 	<meta charset="utf-8">
