@@ -86,6 +86,8 @@ header{
 	color: #1e2161;
 }
 
+
+
 label[for="bt_menu"]{
 	font-size: 20px;
 	cursor: pointer;
@@ -277,7 +279,7 @@ footer{
 	}
 
 	#header-right{
-		width: 190vw;
+		width: 186vw;
 	}
 
 	#logoIF{
@@ -291,11 +293,12 @@ footer{
 	}
 	
 	.header-left{
-		width: 35vw;
+		width: 34vw;
+		background-color: #19bdb2;
 	}
 
 	#header-right{
-		width: 190vw;
+		width: 186vw;
 	}
 }
 
@@ -399,7 +402,8 @@ footer{
 
 @media screen and (min-width: 576px) and (max-width: 840px){
 	.header-left{
-		width: 35vw !important;
+		width: 34vw !important;
+		background-color: #19bdb2;
 	} 
 	body{
 		overflow-x: hidden;
@@ -449,6 +453,9 @@ footer{
 		background-color: #1e2161;
 		color: rgb(0,189,176);
 		border-radius: 18px;
+	}
+	.menu ul li{
+		font-size: 14px;
 	}
 }
 
