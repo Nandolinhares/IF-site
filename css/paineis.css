@@ -1,0 +1,27 @@
+body{
+	background: url('../photos/fundo.png');
+}
+
+header{
+	background: url('../photos/fundo.png');
+}
+
+.paineis img{
+	width: 60%;
+	margin: 0 auto;
+	display: table;
+}
+
+.paineis h1{
+	font-family: Stanley Demo;
+	color: #fff;
+	text-align: center;
+}
+
+@media screen and (max-width: 767px){
+	.paineis img{
+		margin-left: 4%;
+		margin-top: -25%;
+		width: 100%;
+	}
+}

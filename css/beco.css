@@ -1,0 +1,27 @@
+body{
+	background: url('../photos/fundo.png');
+}
+
+header{
+	background: url('../photos/fundo.png');
+}
+
+.beco img{
+	width: 40%;
+	margin: 0 auto;
+	display: table;
+}
+
+.beco h1{
+	font-family: Stanley Demo;
+	color: #fff;
+	text-align: center;
+}
+
+@media screen and (max-width: 767px){
+	.beco img{
+		margin-left: 4%;
+		margin-top: -25%;
+		width: 100%;
+	}
+}

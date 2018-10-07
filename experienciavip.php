@@ -57,13 +57,13 @@
 						<ul>
 							<a href="sobre.php"><li>SOBRE</li></a>
 							<li class="hidden-ping">•</li>
-							<li>IMPRENSA</li>
+							<a href="paineis.php"><li>PAINÉIS</li></a>
 							<li class="hidden-ping">•</li>
-							<li>CONTATO</li>
+							<a href="programacao.php"><li>PROGRAMAÇÃO</li></a>
 							<li class="hidden-ping">•</li>
 							<a href="experienciavip.php"><li>EXPERIÊNCIA VIP</li></a>
 							<li class="hidden-ping">•</li>
-							<li>PRÉ-VENDA DE CAMISAS</li>
+							<a href="camisas.php"><li>CAMISAS</li></a>
 							<div id="redes-sociais">
 								<i class="fab fa-twitter fa-lg icone"></i>
 								<i class="fab fa-instagram fa-lg icone"></i>

@@ -56,13 +56,13 @@
 						<ul>
 							<a href="sobre.php"><li>SOBRE</li></a>
 							<li class="hidden-ping">•</li>
-							<li>IMPRENSA</li>
+							<a href="paineis.php"><li>PAINÉIS</li></a>
 							<li class="hidden-ping">•</li>
-							<li>CONTATO</li>
+							<a href="programacao.php"><li>PROGRAMAÇÃO</li></a>
 							<li class="hidden-ping">•</li>
 							<a href="experienciavip.php"><li>EXPERIÊNCIA VIP</li></a>
 							<li class="hidden-ping">•</li>
-							<li>PRÉ-VENDA DE CAMISAS</li>
+							<li>CAMISAS</li>
 							<div id="redes-sociais">
 								<i class="fab fa-twitter fa-lg icone"></i>
 								<i class="fab fa-instagram fa-lg icone"></i>
@@ -81,25 +81,28 @@
 		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 		  <div class="carousel-inner">
 		    <div class="carousel-item active">
-		      <img class="d-block w-100" src="photos/IF/carrouselBeco.png" alt="Beco dos Artistas">
+		      <a href="beco.php"><img class="d-block w-100" src="photos/IF/carrouselBeco.png" alt="Beco dos Artistas"></a>
 		    </div>
 		    <div class="carousel-item">
-		      <img class="d-block w-100" src="photos/IF/carrouselPaineis.png" alt="Painéis">
-		    </div>
+		      <a href=" paineis.php"><img class="d-block w-100" src="photos/IF/carrouselPaineis.png" alt="Painéis">
+		    </div></a>
 		    <div class="carousel-item">
 		      <img class="d-block w-100" src="photos/IF/carrouselIF.png" alt="Invasão Fantástica">
 		    </div>
 		     <div class="carousel-item">
-		      <img class="d-block w-100" src="photos/IF/carrouselAreaGamer.png" alt="Área Gamer">
+		      <a href="areaGamer.php"><img class="d-block w-100" src="photos/IF/carrouselAreaGamer.png" alt="Área Gamer"></a>
 		    </div>
 		    <div class="carousel-item">
-		      <img class="d-block w-100" src="photos/IF/carrouselConvidados.png" alt="Convidados">
-		    </div>
-		    <div class="carousel-item">
-		      <img class="d-block w-100" src="photos/IF/carrouselProgramacao.png" alt="Convidados">
+		      <a href="programacao.php"><img class="d-block w-100" src="photos/IF/carrouselProgramacao.png" alt="Convidados"></a>
 		    </div>
 		     <div class="carousel-item">
-		      <img class="d-block w-100" src="photos/IF/carrouselJD.png" alt="Just Dance">
+		      <a href="camisas.php"><img class="d-block w-100" src="photos/IF/carrouselCamisas.png" alt="Camisas"></a>
+		    </div>
+		     <div class="carousel-item">
+		      <a href="justdance.php"><img class="d-block w-100" src="photos/IF/carrouselJD.png" alt="Just Dance">
+		    </div></a>
+		    <div class="carousel-item">
+		      <a href="convidados.php"><img class="d-block w-100" src="photos/IF/carrouselConvidados.png" alt="Convidados"></a>
 		    </div>
 		  </div>
 		  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -155,10 +158,10 @@
 		<div class="container">
 			<div class="programacao row">
 				<div class="col-12 col-md-6 col-lg-6 col-xl-6">
-					<img class="img-reponsive" src="photos/IF/boxPaineis.png">
+					<a href="paineis.php"><img class="img-reponsive" src="photos/IF/boxPaineis.png"></a>
 				</div>
 				<div class="col-12 col-md-6 col-lg-6 col-xl-6">
-					<a href="javascript:void(0);"><img class="img-reponsive" src="photos/IF/boxBeco.png"></a>
+					<a href="beco.php"><img class="img-reponsive" src="photos/IF/boxBeco.png"></a>
 				</div>
 			</div>
 
@@ -167,10 +170,10 @@
 
 			<div class="programacao row">
 				<div class="col-12 col-md-6 col-lg-6 col-xl-6">
-					<img class="img-reponsive" src="photos/IF/boxAreaGamer.png">
+					<a href="areaGamer.php"><img class="img-reponsive" src="photos/IF/boxAreaGamer.png"></a>
 				</div>
 				<div class="col-12 col-md-6 col-lg-6 col-xl-6">
-					<img class="img-reponsive" src="photos/IF/boxJD.png">
+					<a href="justdance.php"><img class="img-reponsive" src="photos/IF/boxJD.png"></a>
 				</div>
 			</div>
 		</div>
@@ -189,7 +192,7 @@
 					<a href="experienciavip.php"><img class="img-reponsive" src="photos/IF/boxVip.png"></a>
 				</div>
 				<div class="col-12 col-md-6 col-lg-6 col-xl-6">
-					<img class="img-reponsive" src="photos/IF/boxProgramacao.png">
+					<a href="programacao.php"><img class="img-reponsive" src="photos/IF/boxProgramacao.png"></a>
 				</div>
 			</div>
 		</div>
