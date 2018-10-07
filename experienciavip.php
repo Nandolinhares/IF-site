@@ -3,12 +3,12 @@
 <head>
 	
 	<!-- Title -->
-	<title>Sobre - Invasão Fantástica</title>
+	<title>Experiência Vip - Invasão Fantástica</title>
 
 	<!-- Open Graph tags -->
-	<meta property="og:title" content="Sobre - Invasão Fantástica"/>
+	<meta property="og:title" content="Experiência Vip - Invasão Fantástica"/>
 	<meta property="og:type" content="website"/>
-	<meta property="og:url" content="sobre.php"/>
+	<meta property="og:url" content="experienciavip.php"/>
 	<meta property="og:image" content="photos/if.png" />
 	<meta property="og:description" content=""/>
 
@@ -27,7 +27,7 @@
 
 		<!-- Meu CSS -->
 	<link rel="stylesheet" type="text/css" href="main.css">
-	<link rel="stylesheet" type="text/css" href="css/sobre.css">
+	<link rel="stylesheet" type="text/css" href="css/expvip.css">
 </head>
 <body>
 
@@ -77,17 +77,11 @@
 		</section>
 	</header>
 
-	<section class="sobre">
+	<section class="exp-vip">
 		<div class="container">
-			<h2>O Evento</h2>
-		<p>
-			O evento Invasão Fantástica é uma oportunidade dos fãs do universo mágico de Harry Potter e fãs de cultura pop estarem em contato desfrutando de uma experiência única no segmento.
-		</p>
-		<p>
-			Além dos tradicionais painéis temáticos, o evento apresentará um Artists' Alley com personalidades premiadas no cenário dos quadrinhos e literário nacional.
-			As áreas interativas marcarão presença mais forte nesse evento e contarão com novidades do mundo gamer imperdíveis para todo fã de cultura pop, oficinas exclusivas, áreas temáticas e muita tecnologia em todo evento.
-		</p>
-		</div>
+			<img src="photos/IF/pages/pageVip.png">
+			<h1>Em Breve  ...</h1>
+		</div>		
 	</section>
 
 	

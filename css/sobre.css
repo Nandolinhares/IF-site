@@ -6,8 +6,6 @@ header{
 	background: url('../photos/fundo.png');
 }
 
-
-
 .sobre h2{
 	font-family: Stanley Demo;
 	color: #fff;
@@ -15,7 +13,7 @@ header{
 }
 .sobre p{
 	color:#fff;
-	font-family:Tempus-Sans;
+	font-family: Tempus-Sans;
 	font-size: 22px;
 	text-align: justify;
 }

@@ -179,11 +179,23 @@ label[for="bt_menu"]{
 	background-color: #000617;
 }
 
+.programacao-container h2{
+	color: #fff;
+	text-align: center;
+	margin-top: 2%;
+}
+
+.programacao-container p{
+	font-family: Tempus-Sans;
+	text-align: center;
+	color: #fff;
+}
+
 /* O Invasão*/
 #o-invasao{
 	color: #fff;
 	text-align: center;
-	font-family: Stanley Demo;
+	font-family: Tempus-Sans;
 	margin-top: 2px;
 	padding-top: 8px;
 }
@@ -242,6 +254,16 @@ footer{
 #conectat-logo{
 	margin: 0 auto;
 	display: table;
+}
+
+.hogwarts{
+	margin-top: 2%;
+}
+
+.hogwarts h2{
+	font-family: Stanley Demo;
+	color: #fff;
+	text-align: center;
 }
 
 @media screen and (max-width: 840px){

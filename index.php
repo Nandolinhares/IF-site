@@ -35,7 +35,7 @@
 			<div class="row fantastica">
 				<div class="col-4 col-sm-3 col-md-3 col-lg-2">
 					<img class="header-left" src="photos/header-left.png">
-					<img id="logoIF" src="photos/logoDragao.png">
+					<a href="index.php"><img id="logoIF" src="photos/logoDragao.png"></a>
 				</div>
 				<div class="col-8 col-sm-9 col-md-4 col-lg-10">
 					<img id="header-right" src="photos/header-right.png">
@@ -60,7 +60,7 @@
 							<li class="hidden-ping">•</li>
 							<li>CONTATO</li>
 							<li class="hidden-ping">•</li>
-							<li>EXPERIÊNCIA VIP</li>
+							<a href="experienciavip.php"><li>EXPERIÊNCIA VIP</li></a>
 							<li class="hidden-ping">•</li>
 							<li>PRÉ-VENDA DE CAMISAS</li>
 							<div id="redes-sociais">
@@ -81,16 +81,25 @@
 		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 		  <div class="carousel-inner">
 		    <div class="carousel-item active">
-		      <img class="d-block w-100" src="photos/IF/carrouselBeco.png" alt="First slide">
+		      <img class="d-block w-100" src="photos/IF/carrouselBeco.png" alt="Beco dos Artistas">
 		    </div>
 		    <div class="carousel-item">
-		      <img class="d-block w-100" src="photos/IF/carrouselPaineis.png" alt="Second slide">
+		      <img class="d-block w-100" src="photos/IF/carrouselPaineis.png" alt="Painéis">
 		    </div>
 		    <div class="carousel-item">
-		      <img class="d-block w-100" src="photos/IF/carrouselIF.png" alt="Third slide">
+		      <img class="d-block w-100" src="photos/IF/carrouselIF.png" alt="Invasão Fantástica">
 		    </div>
 		     <div class="carousel-item">
-		      <img class="d-block w-100" src="photos/IF/carrouselAreaGamer.png" alt="Third slide">
+		      <img class="d-block w-100" src="photos/IF/carrouselAreaGamer.png" alt="Área Gamer">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="photos/IF/carrouselConvidados.png" alt="Convidados">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="photos/IF/carrouselProgramacao.png" alt="Convidados">
+		    </div>
+		     <div class="carousel-item">
+		      <img class="d-block w-100" src="photos/IF/carrouselJD.png" alt="Just Dance">
 		    </div>
 		  </div>
 		  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -136,8 +145,8 @@
 
 	<section id="o-invasao">
 		<div class="container">
-			<h2>O Evento</h2>
-			<p>Bem vindos a mais um evento realizado pelo Club Conectat. Chegou a oportunidade dos amantes do universo magico de Harry Potter e dos amantes da cultura pop estarem em contato, desfrutando de uma experiencia sem igual no segmento.</p>
+			<h2 style="margin-top: 2%;">Um dia repleto de magia</h2>
+			<p>Bem vindos a mais um evento realizado pelo Club Conectat. Nasce agora a oportunidade dos amantes do universo mágico de Harry Potter e da cultura pop estarem em contato, desfrutando de uma experiência sem igual no segmento.</p>
 		</div>
 	</section>
 
@@ -149,15 +158,38 @@
 					<img class="img-reponsive" src="photos/IF/boxPaineis.png">
 				</div>
 				<div class="col-12 col-md-6 col-lg-6 col-xl-6">
-					<img class="img-reponsive" src="photos/IF/boxVip.png">
+					<a href="javascript:void(0);"><img class="img-reponsive" src="photos/IF/boxBeco.png"></a>
 				</div>
 			</div>
+
+			<h2>Atividades especiais</h2>
+			<p>No Invasão Fantástica você poderá se divertir com Just Dance e outros diversos jogos! </p>
+
 			<div class="programacao row">
 				<div class="col-12 col-md-6 col-lg-6 col-xl-6">
-					<img class="img-reponsive" src="photos/IF/boxBeco.png">
+					<img class="img-reponsive" src="photos/IF/boxAreaGamer.png">
 				</div>
 				<div class="col-12 col-md-6 col-lg-6 col-xl-6">
-					<img class="img-reponsive" src="photos/IF/boxAreaGamer.png">
+					<img class="img-reponsive" src="photos/IF/boxJD.png">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="hogwarts">
+		<div class="container">
+			<h2>Junte-se aos seus amigos nesta aventura</h2>
+		</div>
+	</section>
+
+	<section class="programacao-container">
+		<div class="container">
+			<div class="programacao row">
+				<div class="col-12 col-md-6 col-lg-6 col-xl-6">
+					<a href="experienciavip.php"><img class="img-reponsive" src="photos/IF/boxVip.png"></a>
+				</div>
+				<div class="col-12 col-md-6 col-lg-6 col-xl-6">
+					<img class="img-reponsive" src="photos/IF/boxProgramacao.png">
 				</div>
 			</div>
 		</div>

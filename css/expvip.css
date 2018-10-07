@@ -1,0 +1,26 @@
+body, header{
+	background: url('../photos/IF/fundoAmarelo.png');
+}
+
+h1{
+	font-family: Stanley Demo;
+}
+
+.exp-vip h1{
+	color: #fff;
+	text-align: center;
+}
+
+.exp-vip img{
+	width: 40%;
+	margin: 0 auto;
+	display: table;
+}
+
+@media screen and (max-width: 767px){
+	.exp-vip img{
+		margin-left: 4%;
+		margin-top: -20%;
+		width: 100%;
+	}
+}
