@@ -98,12 +98,10 @@
 				</div>
 				<div class="col-12 col-md-4 col-lg-5 apoio">
 					<h3>Apoio:</h3>
-					<img src="photos/parceiros/piticas.png">
 					<img style="width: 120px !important;" src="photos/parceiros/balao.png">
-					<img src="photos/parceiros/redit.png">
-					<img src="photos/parceiros/cultura.png">
 					<img src="photos/parceiros/bourmet.png">
 					<img src="photos/parceiros/quadribol.png">
+					<img style="width: 120px !important;" src="photos/parceiros/potterish.jpg">
 				</div>
 				<div class="col-12 col-md-4 organizador">
 					<h3 style="text-align: center;">Realização:</h3>

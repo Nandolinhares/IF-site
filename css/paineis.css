@@ -18,6 +18,18 @@ header{
 	text-align: center;
 }
 
+.paineis h2{
+	font-family: Stanley Demo;
+	color: #19bdb2;
+	text-align: center;
+}
+
+.bioConvidados{
+	text-align: justify !important;
+	color: #19bdb2 !important;
+	font-size: 18px !important;
+}
+
 .camisas2 img{
 	margin-top: 2%;
 }
@@ -39,10 +51,29 @@ header{
 	font-size: 22px;
 }
 
+.box1{
+	width: 100% !important;
+}
+
 @media screen and (max-width: 767px){
 	 #camisaLogo{
 		margin-left: 4%;
 		margin-top: -25%;
 		width: 100%;
+	}
+	#painelLogo{
+		width: 100%;
+		margin-top: -22%;
+	}
+	.artistas{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	#potterish_title{
+		margin-top: 6%;
+	}
+	.box{
+		width: 100% !important;
+		margin-top: -28% !important;
 	}
 }

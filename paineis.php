@@ -28,6 +28,7 @@
 		<!-- Meu CSS -->
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<link rel="stylesheet" type="text/css" href="css/paineis.css">
+
 </head>
 <body>
 
@@ -80,8 +81,27 @@
 	
 	<section class="paineis">
 		<div class="container">
-			<img src="photos/IF/pages/pagePaineis.png">
-			<h1>Em Breve  ...</h1>
+			<img id="painelLogo" src="photos/IF/pages/pagePaineis.png">	
+			<div class="row artistas">
+				<div class="col-12 col-sm-12 col-md-12 col-lg-5">
+					<h2 id="potterish_title">O maior website dedicado a Harry Potter da America Latina</h2>
+					<p class="bioConvidados">Premiado pela autora J.K. Rowling, o portal já chegou a registrar mais de um milhão de visitas em um único dia e, hoje, amplia sua atuação por meio das redes sociais, conquistando novos leitores e consolidando-se como grande aliado na manutenção d’O Mundo Bruxo de J.K. Rowling, conforme a franquia Animais Fantásticos chega aos cinemas e a peça Harry Potter e a Criança Amaldiçoada estreia nos palcos ao redor do mundo.
+					</p>
+				</div>
+				<div class="col-12 col-sm-0 col-md-0 col-lg-7">
+					<img src="photos/parceiros/potterish.jpg">
+				</div>
+			</div>
+			<div class="row artistas">
+				<div class="col-12 col-sm-12 col-md-12 col-lg-5">
+					<h2 id="potterish_title">Workshop de Quadribol</h2>
+					<p class="bioConvidados">Premiado pela autora J.K. Rowling, o portal já chegou a registrar mais de um milhão de visitas em um único dia e, hoje, amplia sua atuação por meio das redes sociais, conquistando novos leitores e consolidando-se como grande aliado na manutenção d’O Mundo Bruxo de J.K. Rowling, conforme a franquia Animais Fantásticos chega aos cinemas e a peça Harry Potter e a Criança Amaldiçoada estreia nos palcos ao redor do mundo.
+					</p>
+				</div>
+				<div class="col-12 col-sm-0 col-md-0 col-lg-7">
+					<img src="photos/parceiros/quadribol2.png">
+				</div>
+			</div>
 		</div>		
 	</section>
 
@@ -98,12 +118,10 @@
 				</div>
 				<div class="col-12 col-md-4 col-lg-5 apoio">
 					<h3>Apoio:</h3>
-					<img src="photos/parceiros/piticas.png">
 					<img style="width: 120px !important;" src="photos/parceiros/balao.png">
-					<img src="photos/parceiros/redit.png">
-					<img src="photos/parceiros/cultura.png">
 					<img src="photos/parceiros/bourmet.png">
 					<img src="photos/parceiros/quadribol.png">
+					<img style="width: 120px !important;" src="photos/parceiros/potterish.jpg">
 				</div>
 				<div class="col-12 col-md-4 organizador">
 					<h3 style="text-align: center;">Realização:</h3>

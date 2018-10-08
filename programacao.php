@@ -80,8 +80,23 @@
 	
 	<section class="paineis">
 		<div class="container">
-			<img src="photos/IF/pages/pageProgramacao.png">
-			<h1>Em Breve  ...</h1>
+			<img class="box" src="photos/IF/pages/pageProgramacao.png">
+			<div class="row">
+				<div class="col-12 col-sm-6 col-md-6 col-lg-6">
+					<img class="box1" src="photos/IF/boxBeco.png">
+				</div>
+				<div class="col-12 col-sm-6 col-md-6 col-lg-6">
+					<img class="box1" src="photos/IF/boxPaineis.png">
+				</div>
+			</div>
+			<div style="margin-top: 2%;" class="row">
+				<div class="col-12 col-sm-6 col-md-6 col-lg-6">
+					<img class="box1" src="photos/IF/boxAreaGamer.png">
+				</div>
+				<div class="col-12 col-sm-6 col-md-6 col-lg-6">
+					<img class="box1" src="photos/IF/boxJD.png">
+				</div>
+			</div>
 		</div>		
 	</section>
 
@@ -98,12 +113,10 @@
 				</div>
 				<div class="col-12 col-md-4 col-lg-5 apoio">
 					<h3>Apoio:</h3>
-					<img src="photos/parceiros/piticas.png">
 					<img style="width: 120px !important;" src="photos/parceiros/balao.png">
-					<img src="photos/parceiros/redit.png">
-					<img src="photos/parceiros/cultura.png">
 					<img src="photos/parceiros/bourmet.png">
 					<img src="photos/parceiros/quadribol.png">
+					<img style="width: 120px !important;" src="photos/parceiros/potterish.jpg">
 				</div>
 				<div class="col-12 col-md-4 organizador">
 					<h3 style="text-align: center;">Realização:</h3>
