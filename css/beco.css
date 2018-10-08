@@ -1,5 +1,5 @@
 body{
-	background: url('../photos/fundo.png');
+	background: url('../photos/fundo.png') fixed;
 }
 
 header{
@@ -12,10 +12,38 @@ header{
 	display: table;
 }
 
-.beco h1{
+.beco h2{
 	font-family: Stanley Demo;
-	color: #fff;
+	color: #19bdb2;
 	text-align: center;
+}
+
+.artistas{
+	margin-top: 4%;
+}
+
+.artistas p{
+	color: #19bdb2;
+	text-align: center;
+	font-family: Tempus-Sans;
+}
+
+.artistas img{
+	width: 78%;
+}
+
+.bioConvidados{
+	text-align: justify !important;
+}
+
+@media screen and (max-width: 991px){
+	.artistas{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.artistas img{
+		width: 50%;
+	}
 }
 
 @media screen and (max-width: 767px){
@@ -23,5 +51,12 @@ header{
 		margin-left: 4%;
 		margin-top: -25%;
 		width: 100%;
+	}
+	.artistas{
+		margin-top: 8%;
+	}
+	.artistas img{
+		margin-top: 4%;
+		width: 80%;
 	}
 }
