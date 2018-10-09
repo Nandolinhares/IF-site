@@ -9,8 +9,11 @@
 	<meta property="og:title" content="Beco dos Artistas - Invasão Fantástica"/>
 	<meta property="og:type" content="website"/>
 	<meta property="og:url" content="beco.php"/>
-	<meta property="og:image" content="photos/if-new.png" />
+	<meta property="og:image" content="photos/avatar.png"/>
+	<meta property="og:image:width" content="960"/>
+	<meta property="og:image:height" content="960"/>
 	<meta property="og:description" content="O evento Invasão Fantástica é uma oportunidade dos fãs do universo mágico de Harry Potter e fãs de cultura pop estarem em contato desfrutando de uma experiência única no segmento."/>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
 	<!-- Principais metatags -->
 	<meta charset="utf-8">
@@ -65,10 +68,10 @@
 							<li class="hidden-ping">•</li>
 							<a href="camisas.php"><li>CAMISAS</li></a>
 							<div id="redes-sociais">
-								<i class="fab fa-twitter fa-lg icone"></i>
-								<i class="fab fa-instagram fa-lg icone"></i>
-								<i class="fab fa-facebook-f fa-lg icone"></i>
-								<i class="fab fa-youtube fa-lg icone"></i>
+								<a href="https://twitter.com/clubconectat" target="_blank"><i class="fab fa-twitter fa-lg icone"></i></a>
+								<a href="https://instagram.com/clubconectat" target="_blank"><i class="fab fa-instagram fa-lg icone"></i></a>
+								<a href="https://www.facebook.com/clubconectat" target="_blank"><i class="fab fa-facebook-f fa-lg icone"></i></a>
+								<a href="https://www.youtube.com/channel/UCN5rSVp84WBEPyJWO2LzTjA" target="_blank"><i class="fab fa-youtube fa-lg icone"></i></a>
 							</div>
 						</ul>
 					</nav>
@@ -94,7 +97,7 @@
 			</div>
 			<div class="row artistas">
 				<div class="col-12 col-sm-12 col-md-12 col-lg-5">
-					<h2>Eric Peleas</h2>
+					<h2>Eric Peleias</h2>
 					<p>Diretor de arte, Designer e Ilustrador</p>
 					<p class="bioConvidados">Trabalhei como diretor de arte, designer e ilustrador para empresas como Grande Prêmio Brasil de Fórmula 1, Editora Abril, Greenpeace, World Bank, Sabesp, Médicos Sem Fronteiras, Natura, Editora Trip, Editora Capital Aberto, Governo do Estado do Amazonas, Ingram, entre outros. </p>
 					<p class="bioConvidados">Estreei nos quadrinhos no Festival Internacional de Quadrinhos de Belo Horizonte (FIQ/BH) de 2013, com o lançamento de Ima – Sempre em Frente, a história real de Julia, sobrevivente do holocausto. A graphic novel já vendeu mais de mil exemplares e foi bem recebida por público e crítica.</p>
@@ -156,6 +159,7 @@
 					<img src="photos/parceiros/bourmet.png">
 					<img src="photos/parceiros/quadribol.png">
 					<img style="width: 120px !important;" src="photos/parceiros/potterish.jpg">
+					<img style="width: 150px !important;" src="photos/parceiros/evl.png">
 				</div>
 				<div class="col-12 col-md-4 organizador">
 					<h3 style="text-align: center;">Realização:</h3>

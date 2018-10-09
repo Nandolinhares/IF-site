@@ -9,8 +9,11 @@
 	<meta property="og:title" content="Camisas - Invasão Fantástica"/>
 	<meta property="og:type" content="website"/>
 	<meta property="og:url" content="camisas.php"/>
-	<meta property="og:image" content="photos/if-new.png" />
+	<meta property="og:image" content="photos/avatar.png"/>
+	<meta property="og:image:width" content="960"/>
+	<meta property="og:image:height" content="960"/>
 	<meta property="og:description" content="O evento Invasão Fantástica é uma oportunidade dos fãs do universo mágico de Harry Potter e fãs de cultura pop estarem em contato desfrutando de uma experiência única no segmento."/>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
 	<!-- Principais metatags -->
 	<meta charset="utf-8">
@@ -46,10 +49,10 @@
 					<label for="bt_menu">&#9776;</label>
 
 					<section id="redes-sociais-mobile">
-						<i class="fab fa-twitter fa-md icone"></i>
-						<i class="fab fa-instagram fa-md icone"></i>
-						<i class="fab fa-facebook-f fa-md icone"></i>
-						<i class="fab fa-youtube fa-md icone"></i>
+						<a href="https://twitter.com/clubconectat" target="_blank"><i class="fab fa-twitter fa-lg icone"></i></a>
+								<a href="https://instagram.com/clubconectat" target="_blank"><i class="fab fa-instagram fa-lg icone"></i></a>
+								<a href="https://www.facebook.com/clubconectat" target="_blank"><i class="fab fa-facebook-f fa-lg icone"></i></a>
+								<a href="https://www.youtube.com/channel/UCN5rSVp84WBEPyJWO2LzTjA" target="_blank"><i class="fab fa-youtube fa-lg icone"></i></a>
 					</section>
 
 					<!-- Navbar -->
@@ -145,6 +148,7 @@
 					<img src="photos/parceiros/bourmet.png">
 					<img src="photos/parceiros/quadribol.png">
 					<img style="width: 120px !important;" src="photos/parceiros/potterish.jpg">
+					<img style="width: 150px !important;" src="photos/parceiros/evl.png">
 				</div>
 				<div class="col-12 col-md-4 organizador">
 					<h3 style="text-align: center;">Realização:</h3>

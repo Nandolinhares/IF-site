@@ -210,6 +210,16 @@ footer{
 	background: url('photos/footer.png') no-repeat;
 }
 
+.redes-footer{
+	color: #000;
+	font-family: Amatic-Bold;
+	font-size: 28px;
+	background-color: #19bdb2;
+}
+.redes-footer i{
+	padding-right: 4px;
+}
+
 .patrocinadores{
 	margin-top: 4%;
 	padding-top: 5%;

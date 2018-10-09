@@ -4,13 +4,24 @@
 	
 	<!-- Title -->
 	<title>Invasão Fantástica</title>
+	<meta name="description" content="O Invasão Fantástica é uma oportunidade dos fãs do universo mágico de Harry Potter estarem desfrutando de uma experiência única no segmento." />
 
 	<!-- Open Graph tags -->
 	<meta property="og:title" content="Invasão Fantástica"/>
 	<meta property="og:type" content="website"/>
 	<meta property="og:url" content="index.php"/>
-	<meta property="og:image" content="photos/if-new.png" />
-	<meta property="og:description" content="O evento Invasão Fantástica é uma oportunidade dos fãs do universo mágico de Harry Potter e fãs de cultura pop estarem em contato desfrutando de uma experiência única no segmento."/>
+	<meta property="og:image" content="photos/avatar.png"/>
+	<meta property="og:image:width" content="960"/>
+	<meta property="og:image:height" content="960"/>
+	<meta property="og:description" content="O Invasão Fantástica é uma oportunidade dos fãs do universo mágico de Harry Potter estarem desfrutando de uma experiência única no segmento."/>
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:description" content="O Invasão Fantástica é uma oportunidade dos fãs do universo mágico de Harry Potter estarem desfrutando de uma experiência única no segmento." />
+	<meta name="twitter:title" content="Invasão Fantástica" />
+	<meta name="twitter:site" content="@clubconectat" />
+	<meta name="twitter:image" content="photos/if-new.png" />
+	<meta name="twitter:creator" content="@clubconectat" />
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
 
 	<!-- Principais metatags -->
 	<meta charset="utf-8">
@@ -65,7 +76,7 @@
 							<a href="camisas.php"><li>CAMISAS</li></a>
 							<div id="redes-sociais">
 								<a href="https://twitter.com/clubconectat" target="_blank"><i class="fab fa-twitter fa-lg icone"></i></a>
-								<a href="https://twitter.com/clubconectat" target="_blank"><i class="fab fa-instagram fa-lg icone"></i></a>
+								<a href="https://instagram.com/clubconectat" target="_blank"><i class="fab fa-instagram fa-lg icone"></i></a>
 								<a href="https://www.facebook.com/clubconectat" target="_blank"><i class="fab fa-facebook-f fa-lg icone"></i></a>
 								<a href="https://www.youtube.com/channel/UCN5rSVp84WBEPyJWO2LzTjA" target="_blank"><i class="fab fa-youtube fa-lg icone"></i></a>
 							</div>
@@ -202,7 +213,7 @@
 
 	<!-- Footer -->
 
-	<footer>
+	<footer class="footer">
 		<div class="container">
 			<div class="row patrocinadores">
 				<div class="col-12 col-md-4 col-lg-3 patro">
@@ -216,6 +227,7 @@
 					<img src="photos/parceiros/bourmet.png">
 					<img src="photos/parceiros/quadribol.png">
 					<img style="width: 120px !important;" src="photos/parceiros/potterish.jpg">
+					<img style="width: 150px !important;" src="photos/parceiros/evl.png">
 				</div>
 				<div class="col-12 col-md-4 organizador">
 					<h3 style="text-align: center;">Realização:</h3>
@@ -223,12 +235,12 @@
 				</div>
 			</div>
 			<section class="producao">
-				<div class="row">
-					<div class="col-12 col-sm-6 col-md-6">
-						<span>&copy; 2018 - Todos os direitos reservados a <strong>Club Conectat</strong></span>
+				<div class="row redes-footer">
+					<div class="col-5 col-sm-6 col-md-6 col-lg-6">
+						<a href="https://instagram.com/nandolinhares1" target="_blank" class="redes-footer"><i class="fab fa-instagram fa-lg"></i>nandolinhares1</a>
 					</div>
-					<div class="col-12 col-sm-6 col-md-6">
-						<p>Development by <strong>Fernando Linhares</strong> & Design by <strong>Pedro Figueiredo</strong></p>
+					<div class="col-7 col-sm-6 col-md-6 col-lg-6">
+						<a href="https://instagram.com/pedrogigueiredoilustrador" target="_blank" class="redes-footer"><i class="fab fa-instagram fa-lg"></i>pedrofigueiredoilustrador</a>
 					</div>
 				</div>
 			</section>
