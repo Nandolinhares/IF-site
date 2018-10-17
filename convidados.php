@@ -49,10 +49,10 @@
 					<label for="bt_menu">&#9776;</label>
 
 					<section id="redes-sociais-mobile">
-						<a href="https://twitter.com/clubconectat" target="_blank"><i class="fab fa-twitter fa-lg icone"></i></a>
-								<a href="https://instagram.com/clubconectat" target="_blank"><i class="fab fa-instagram fa-lg icone"></i></a>
-								<a href="https://www.facebook.com/clubconectat" target="_blank"><i class="fab fa-facebook-f fa-lg icone"></i></a>
-								<a href="https://www.youtube.com/channel/UCN5rSVp84WBEPyJWO2LzTjA" target="_blank"><i class="fab fa-youtube fa-lg icone"></i></a>
+						<a href="https://twitter.com/clubconectat" target="_blank"><i class="fab fa-twitter fa-md icone"></i></a>
+						<a href="https://instagram.com/clubconectat" target="_blank"><i class="fab fa-instagram fa-md icone"></i></a>
+						<a href="https://facebook.com/clubconectat" target="_blank"><i class="fab fa-facebook-f fa-md icone"></i></a>
+						<a href="https://www.youtube.com/channel/UCN5rSVp84WBEPyJWO2LzTjA" target="_blank"><i class="fab fa-youtube fa-md icone"></i></a>
 					</section>
 
 					<!-- Navbar -->
@@ -68,10 +68,10 @@
 							<li class="hidden-ping">•</li>
 							<a href="camisas.php"><li>CAMISAS</li></a>
 							<div id="redes-sociais">
-								<i class="fab fa-twitter fa-lg icone"></i>
-								<i class="fab fa-instagram fa-lg icone"></i>
-								<i class="fab fa-facebook-f fa-lg icone"></i>
-								<i class="fab fa-youtube fa-lg icone"></i>
+								<a href="https://twitter.com/clubconectat" target="_blank"><i class="fab fa-twitter fa-lg icone"></i></a>
+								<a href="https://instagram.com/clubconectat" target="_blank"><i class="fab fa-instagram fa-lg icone"></i></a>
+								<a href="https://www.facebook.com/clubconectat" target="_blank"><i class="fab fa-facebook-f fa-lg icone"></i></a>
+								<a href="https://www.youtube.com/channel/UCN5rSVp84WBEPyJWO2LzTjA" target="_blank"><i class="fab fa-youtube fa-lg icone"></i></a>
 							</div>
 						</ul>
 					</nav>
@@ -96,29 +96,30 @@
 			<div class="row patrocinadores">
 				<div class="col-12 col-md-4 col-lg-3 patro">
 					<h3>Patrocinio:</h3>
-					<img id="logoBou" src="photos/parceiros/bouLogo.png">
-					<img src="photos/parceiros/chilliLogo.png">
+					<img id="logoBou" src="photos/parceiros/Boulevard.png">
+					<img src="photos/parceiros/Chilli.png">
 				</div>
 				<div class="col-12 col-md-4 col-lg-5 apoio">
 					<h3>Apoio:</h3>
-					<img style="width: 120px !important;" src="photos/parceiros/balao.png">
-					<img src="photos/parceiros/bourmet.png">
-					<img src="photos/parceiros/quadribol.png">
-					<img style="width: 120px !important;" src="photos/parceiros/potterish.jpg">
-					<img style="width: 150px !important;" src="photos/parceiros/evl.png">
+					<img style="width: 140px !important;" src="photos/parceiros/Balão.png">
+					<img style="width: 100px !important;" src="photos/parceiros/Bourmet.png">
+					<img src="photos/parceiros/ABQ.png">
+					<img style="width: 120px !important;" src="photos/parceiros/Potterish.png">
+					<img style="width: 140px !important;" src="photos/parceiros/evl.png">
+					<img style="width: 130px !important;" src="photos/parceiros/aquimidia.png">
 				</div>
-				<div class="col-12 col-md-4 organizador">
+				<div style="background-color: #19bdb2;" class="col-12 col-md-4 organizador">
 					<h3 style="text-align: center;">Realização:</h3>
 					<img id="conectat-logo" src="photos/parceiros/conectat.png">
 				</div>
 			</div>
 			<section class="producao">
-				<div class="row">
-					<div class="col-12 col-sm-6 col-md-6">
-						<span>&copy; 2018 - Todos os direitos reservados a <strong>Club Conectat</strong></span>
+				<div class="row redes-footer">
+					<div class="col-5 col-sm-6 col-md-6 col-lg-6">
+						<a href="https://instagram.com/nandolinhares1" target="_blank" class="redes-footer"><i class="fab fa-instagram fa-lg"></i>nandolinhares1</a>
 					</div>
-					<div class="col-12 col-sm-6 col-md-6">
-						<p>Development by <strong>Fernando Linhares</strong> & Design by <strong>Pedro Figueiredo</strong></p>
+					<div class="col-7 col-sm-6 col-md-6 col-lg-6">
+						<a href="https://instagram.com/pedrogigueiredoilustrador" target="_blank" class="redes-footer"><i class="fab fa-instagram fa-lg"></i>pedrofigueiredoilustrador</a>
 					</div>
 				</div>
 			</section>

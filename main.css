@@ -245,7 +245,7 @@ footer{
 }
 
 #logoBou{
-	width: 180px;
+	width: 200px;
 }
 
 .apoio img{
@@ -259,7 +259,7 @@ footer{
 
 .producao{
 	margin: 8px auto;
-	display: table;
+	text-align: center;
 	color: #1e2161;
 }
 

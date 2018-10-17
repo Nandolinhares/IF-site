@@ -49,10 +49,10 @@
 					<label for="bt_menu">&#9776;</label>
 
 					<section id="redes-sociais-mobile">
-						<i class="fab fa-twitter fa-md icone"></i>
-						<i class="fab fa-instagram fa-md icone"></i>
-						<i class="fab fa-facebook-f fa-md icone"></i>
-						<i class="fab fa-youtube fa-md icone"></i>
+						<a href="https://twitter.com/clubconectat" target="_blank"><i class="fab fa-twitter fa-md icone"></i></a>
+						<a href="https://instagram.com/clubconectat" target="_blank"><i class="fab fa-instagram fa-md icone"></i></a>
+						<a href="https://facebook.com/clubconectat" target="_blank"><i class="fab fa-facebook-f fa-md icone"></i></a>
+						<a href="https://www.youtube.com/channel/UCN5rSVp84WBEPyJWO2LzTjA" target="_blank"><i class="fab fa-youtube fa-md icone"></i></a>
 					</section>
 
 					<!-- Navbar -->
@@ -84,7 +84,8 @@
 	<section class="beco">
 		<div class="container">
 			<img src="photos/IF/pages/pageBeco.png">
-			<div class="row artistas">
+			<h1 style="text-align: center; color: #fff; font-family: Stanley Demo;">Em Breve</h1>
+			<!--<div class="row artistas">
 				<div class="col-12 col-sm-12 col-md-12 col-lg-5">
 					<h2>Renata Ventura</h2>
 					<p>Escritora e jornalista</p>
@@ -99,8 +100,8 @@
 				<div class="col-12 col-sm-12 col-md-12 col-lg-5">
 					<h2>Eric Peleias</h2>
 					<p>Diretor de arte, Designer e Ilustrador</p>
-					<p class="bioConvidados">Trabalhei como diretor de arte, designer e ilustrador para empresas como Grande Prêmio Brasil de Fórmula 1, Editora Abril, Greenpeace, World Bank, Sabesp, Médicos Sem Fronteiras, Natura, Editora Trip, Editora Capital Aberto, Governo do Estado do Amazonas, Ingram, entre outros. </p>
-					<p class="bioConvidados">Estreei nos quadrinhos no Festival Internacional de Quadrinhos de Belo Horizonte (FIQ/BH) de 2013, com o lançamento de Ima – Sempre em Frente, a história real de Julia, sobrevivente do holocausto. A graphic novel já vendeu mais de mil exemplares e foi bem recebida por público e crítica.</p>
+					<p class="bioConvidados">Trabalhou como diretor de arte, designer e ilustrador para empresas como Grande Prêmio Brasil de Fórmula 1, Editora Abril, Greenpeace, World Bank, Sabesp, Médicos Sem Fronteiras, Natura, Editora Trip, Editora Capital Aberto, Governo do Estado do Amazonas, Ingram, entre outros. </p>
+					<p class="bioConvidados">Estreou nos quadrinhos no Festival Internacional de Quadrinhos de Belo Horizonte (FIQ/BH) de 2013, com o lançamento de Ima – Sempre em Frente, a história real de Julia, sobrevivente do holocausto. A graphic novel já vendeu mais de mil exemplares e foi bem recebida por público e crítica.</p>
 				</div>
 				<div class="col-12 col-sm-0 col-md-0 col-lg-7">
 					<img src="photos/beco/eric.png">
@@ -121,8 +122,8 @@
 				<div class="col-12 col-sm-12 col-md-12 col-lg-5">
 					<h2>Rapha Pinheiro</h2>
 					<p>Quadrinista</p>
-					<p class="bioConvidados">Trabalho com quadrinhos desde 2014, desenhando, escrevendo histórias e compartilhando minhas idéias com o mundo. Em 2016 comecei a lecionar um curso livre de desenho e produção de quadrinhos no Colégio Santo Amaro e em 2017 iniciei um canal no Youtube onde compartilho aulas e dicas sobre a nona arte e sua produção. </p>
-					<p class="bioConvidados">Atualmente sou mestrando da Escola de Comunicação da UFRJ, estudando Tecnologias e Linguagens da Comunicação Editorial. Meu projeto desse mestrado se chama Mesa 44  e você deveria conferir.</p>
+					<p class="bioConvidados">Trabalha com quadrinhos desde 2014, desenhando, escrevendo histórias e compartilhando suas ideias com o mundo. Em 2016 começou a lecionar um curso livre de desenho e produção de quadrinhos no Colégio Santo Amaro e em 2017 iniciou um canal no Youtube onde compartilha aulas e dicas sobre a nona arte e sua produção. </p>
+					<p class="bioConvidados">Atualmente, é mestrando da Escola de Comunicação da UFRJ, estudando Tecnologias e Linguagens da Comunicação Editorial. Seu projeto de mestrado se chama Mesa 44 e você deveria conferir.</p>
 				</div>
 				<div class="col-12 col-sm-0 col-md-0 col-lg-7">
 					<img src="photos/beco/rapha.png">
@@ -139,6 +140,16 @@
 					<img src="photos/beco/pedro.png">
 				</div>
 			</div>
+			<div class="row artistas">
+				<div class="col-12 col-sm-12 col-md-12 col-lg-5">
+					<h2>Murilo de Souza</h2>
+					<p>Designer Gráfico</p>
+					<p class="bioConvidados">Formado em design gráfico, tornou-se amante de narrativas gráficas e universos fantásticos. Aventura-se pelo mundo dos quadrinhos e da animação como subterfúgio para uma catarse fidedigna. </p>
+				</div>
+				<div class="col-12 col-sm-0 col-md-0 col-lg-7">
+					<img id="murilo" src="photos/beco/murilo.png">
+				</div>
+			</div>-->
 		</div>		
 	</section>
 
@@ -150,29 +161,30 @@
 			<div class="row patrocinadores">
 				<div class="col-12 col-md-4 col-lg-3 patro">
 					<h3>Patrocinio:</h3>
-					<img id="logoBou" src="photos/parceiros/bouLogo.png">
-					<img src="photos/parceiros/chilliLogo.png">
+					<img id="logoBou" src="photos/parceiros/Boulevard.png">
+					<img src="photos/parceiros/Chilli.png">
 				</div>
 				<div class="col-12 col-md-4 col-lg-5 apoio">
 					<h3>Apoio:</h3>
-					<img style="width: 120px !important;" src="photos/parceiros/balao.png">
-					<img src="photos/parceiros/bourmet.png">
-					<img src="photos/parceiros/quadribol.png">
-					<img style="width: 120px !important;" src="photos/parceiros/potterish.jpg">
-					<img style="width: 150px !important;" src="photos/parceiros/evl.png">
+					<img style="width: 140px !important;" src="photos/parceiros/Balão.png">
+					<img style="width: 100px !important;" src="photos/parceiros/Bourmet.png">
+					<img src="photos/parceiros/ABQ.png">
+					<img style="width: 120px !important;" src="photos/parceiros/Potterish.png">
+					<img style="width: 140px !important;" src="photos/parceiros/evl.png">
+					<img style="width: 130px !important;" src="photos/parceiros/aquimidia.png">
 				</div>
-				<div class="col-12 col-md-4 organizador">
+				<div style="background-color: #19bdb2;" class="col-12 col-md-4 organizador">
 					<h3 style="text-align: center;">Realização:</h3>
 					<img id="conectat-logo" src="photos/parceiros/conectat.png">
 				</div>
 			</div>
 			<section class="producao">
-				<div class="row">
-					<div class="col-12 col-sm-6 col-md-6">
-						<span>&copy; 2018 - Todos os direitos reservados a <strong>Club Conectat</strong></span>
+				<div class="row redes-footer">
+					<div class="col-5 col-sm-6 col-md-6 col-lg-6">
+						<a href="https://instagram.com/nandolinhares1" target="_blank" class="redes-footer"><i class="fab fa-instagram fa-lg"></i>nandolinhares1</a>
 					</div>
-					<div class="col-12 col-sm-6 col-md-6">
-						<p>Development by <strong>Fernando Linhares</strong> & Design by <strong>Pedro Figueiredo</strong></p>
+					<div class="col-7 col-sm-6 col-md-6 col-lg-6">
+						<a href="https://instagram.com/pedrogigueiredoilustrador" target="_blank" class="redes-footer"><i class="fab fa-instagram fa-lg"></i>pedrofigueiredoilustrador</a>
 					</div>
 				</div>
 			</section>
