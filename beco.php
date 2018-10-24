@@ -85,7 +85,7 @@
 		<div class="container">
 			<img src="photos/IF/pages/pageBeco.png">
 			<h1 style="text-align: center; color: #fff; font-family: Stanley Demo;">Em Breve</h1>
-			<!--<div class="row artistas">
+			<div class="row artistas">
 				<div class="col-12 col-sm-12 col-md-12 col-lg-5">
 					<h2>Renata Ventura</h2>
 					<p>Escritora e jornalista</p>
@@ -96,6 +96,7 @@
 					<img src="photos/beco/renata.png">
 				</div>
 			</div>
+			<!--
 			<div class="row artistas">
 				<div class="col-12 col-sm-12 col-md-12 col-lg-5">
 					<h2>Eric Peleias</h2>
@@ -106,7 +107,7 @@
 				<div class="col-12 col-sm-0 col-md-0 col-lg-7">
 					<img src="photos/beco/eric.png">
 				</div>
-			</div>
+			</div> -->
 			<div class="row artistas">
 				<div class="col-12 col-sm-12 col-md-12 col-lg-5">
 					<h2>Denis Mello</h2>
@@ -118,6 +119,7 @@
 					<img src="photos/beco/denis.png">
 				</div>
 			</div>
+			<!--
 			<div class="row artistas">
 				<div class="col-12 col-sm-12 col-md-12 col-lg-5">
 					<h2>Rapha Pinheiro</h2>
